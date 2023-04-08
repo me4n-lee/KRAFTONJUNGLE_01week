@@ -38,5 +38,6 @@ for i in range(len(n)):
         result[8] +=1 
     if n[i] == 9:
         result[9] +=1
+        
 for i in range(len(result)):
     print(result[i])

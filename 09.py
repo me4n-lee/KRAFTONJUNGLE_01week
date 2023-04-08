@@ -6,9 +6,9 @@ input = sys.stdin.readline
 
 x, y, w, h = map(int, input().split())
 
-print(x)
-print(y)
-print(w)
-print(h)
+# print(x)
+# print(y)
+# print(w)
+# print(h)
 
 print(min(x,y,w-x,h-y))

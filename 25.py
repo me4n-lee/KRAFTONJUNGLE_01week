@@ -11,6 +11,7 @@ def decimal(a):
         if a%i == 0:
             return False
     return True
+
     
 for i in range(t):
     n=int(input())

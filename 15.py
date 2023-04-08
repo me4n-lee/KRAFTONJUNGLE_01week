@@ -26,11 +26,6 @@ for i in range(n):
 
     print(sum(sub_result))
     
-
-
-
-
-
 # for i in range(n):
 #     print(sub_result)
 
