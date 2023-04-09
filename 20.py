@@ -15,7 +15,7 @@ for i in range(t):
         for k in range(x):
            print(case[j], end="")
     
-    print()
+    #print()
     #print(case)
 
 
