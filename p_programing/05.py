@@ -1,5 +1,6 @@
 #https://www.acmicpc.net/problem/10869
 #사칙연산
+#10869
 
 import sys
 input = sys.stdin.readline

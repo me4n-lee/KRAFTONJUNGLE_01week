@@ -26,12 +26,6 @@ for i in range(9):
                 a = short_list[i]
                 b = short_list[j]
 
-# for i in range(len(short_list)):
-#     if short_list[i] == a or short_list[i] == b:
-#         short_list.remove(short_list[i])
-
-# print(short_list)
-
 for i in range(len(short_list)):
     if short_list[i] == a or short_list[i] == b:
         short_list[i] = 0

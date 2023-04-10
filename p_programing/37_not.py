@@ -3,7 +3,7 @@
 #10819
 
 
-def generate_permutations(arr, n, depth, used, current, result):
+def chai(arr, n, depth, used, current, result):
     if depth == n:
         result.append(current[:])
         return
@@ -12,7 +12,7 @@ def generate_permutations(arr, n, depth, used, current, result):
         if not used[i]:
             used[i] = True
             current.append(arr[i])
-            generate_permutations(arr, n, depth + 1, used, current, result)
+            chai(arr, n, depth + 1, used, current, result)
             current.pop()
             used[i] = False
 
@@ -22,7 +22,7 @@ n_list = list(map(int, input().split()))
 # 순열을 저장할 리스트
 permutations = []
 used = [False] * n
-generate_permutations(n_list, n, 0, used, [], permutations)
+chai(n_list, n, 0, used, [], permutations)
 
 max_sum = 0
 for perm in permutations:
