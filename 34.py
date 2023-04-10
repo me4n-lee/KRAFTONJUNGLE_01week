@@ -16,4 +16,4 @@ for i in range(10001):
     if n_list[i] != 0:
         for j in range(n_list[i]):
             print(i)
-            #print(n_list[i])를 넣으니 내림차순이 됐다!
+            #print(n_list[i])를 넣으니 내림차순이 됐다! 

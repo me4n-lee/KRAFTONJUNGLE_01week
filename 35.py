@@ -9,7 +9,7 @@ n = int(input())
 word_list = []
 # word_leng = []
 for i in range(n):
-    word = input().strip()
+    word = input().strip()#/n제거
     word_list.append(word)
 
 #print(word_list)

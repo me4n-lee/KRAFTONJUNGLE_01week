@@ -1,6 +1,6 @@
-#https://www.acmicpc.net/problem/2750
-#수 정렬하기
-#2750
+#https://www.acmicpc.net/problem/2751
+#수 정렬하기2
+#2751
 
 import sys
 input = sys.stdin.readline
