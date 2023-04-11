@@ -5,6 +5,7 @@
 import sys
 input = sys.stdin.readline
 
+
 n = int(input())
 area_list = []
 for i in range(n):

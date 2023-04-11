@@ -1,5 +1,6 @@
 #https://www.acmicpc.net/problem/2438
 #별 찍기 - 1
+#2438
 
 import sys
 input = sys.stdin.readline

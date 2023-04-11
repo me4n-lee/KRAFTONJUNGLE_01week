@@ -2,8 +2,20 @@
 #Hello World
 #2557
 
-def fun():
-    a = "Hello World!"
-    return print(a)
+# def fun():
+#     a = "Hello World!"
+#     return print(a)
 
-fun()
+# fun()
+
+import sys
+input = sys.stdin.readline
+
+a,b = map(int, input().split())
+
+if a > b:
+    print(">")
+elif a < b:
+    print("<")
+elif a==b:
+    print("==")

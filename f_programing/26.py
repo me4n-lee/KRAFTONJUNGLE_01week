@@ -20,13 +20,3 @@ for i in range(1, n+1):
         cnt += 1
 
 print(cnt)
-
-    # if i<=99:
-    #     cnt += 1
-
-    # hun = int(i/100)
-    # ten = int((i-(hun*100))/10)
-    # one = n - (hun*100) - (ten*10)
-
-    # if abs(hun-ten) == abs(ten-one):
-    #     cnt += 1
