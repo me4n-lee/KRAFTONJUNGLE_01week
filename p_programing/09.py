@@ -1,5 +1,6 @@
 #https://www.acmicpc.net/problem/1085
 #직사각형에서 탈출
+#1085
 
 import sys
 input = sys.stdin.readline

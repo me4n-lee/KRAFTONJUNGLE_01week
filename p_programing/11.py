@@ -1,5 +1,6 @@
 #https://www.acmicpc.net/problem/10950
 #A+B - 3
+#10950
 
 import sys
 input = sys.stdin.readline

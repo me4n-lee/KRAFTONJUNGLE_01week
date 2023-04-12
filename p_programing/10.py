@@ -1,5 +1,6 @@
 #https://www.acmicpc.net/problem/2739
 #구구단
+#2739
 
 import sys
 input = sys.stdin.readline
