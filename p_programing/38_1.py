@@ -1,31 +1,38 @@
+# 백준 10971번: 외판원 순회 2
+# https://www.acmicpc.net/problem/10971
+
 import sys
 input = sys.stdin.readline
 
+n = int(input())
+road_list = []
+for i in range(n):
+    road = list(map(int, input().split()))
+    road_list.append(road)
+visited = [0] * n
+result = float('inf') # 무한대로 초기화 하는 이유 - 최소값을 찾는거니깐!
+
 def dfs(start, now, value, cnt):
-    global ans
-    if cnt == N:
-        if a[now][start]:
-            value += a[now][start]
-            if ans > value:
-                ans = value
-        return
+    global result
 
-    if value > ans:
-        return
+    if cnt == n:
+        if road_list[now][start]:
+            value = value + road_list[now][start]
+            if result > value:
+                result = value
 
-    for i in range(N):
-        if not visited[i] and a[now][i]:
+    if value > result:
+        return
+    
+    for i in range(n):
+        if not visited[i] and road_list[now][i]:
             visited[i] = 1
-            dfs(start, i, value + a[now][i], cnt + 1)
+            dfs(start, i, value + road_list[now][i], cnt + 1)
             visited[i] = 0
 
-
-N = int(input())
-a = [list(map(int, input().split()))for _ in range(N)]
-ans = sys.maxsize
-visited = [0] * N
-for i in range(N):
+for i in range(n):
     visited[i] = 1
     dfs(i, i, 0, 1)
     visited[i] = 0
-print(ans)
+
+print(result)

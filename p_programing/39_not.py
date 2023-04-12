@@ -12,7 +12,7 @@ for i in range(n):
     area = list(map(int, input().split()))
     area_list.append(area)
 
-print(area_list)
+# print(area_list)
 
 dx = [-1, 0, 1, 0]
 dy = [0, 1, 0, -1]
