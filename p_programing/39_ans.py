@@ -52,3 +52,5 @@ for h in range(max_height + 1):
     max_cnt = max(max_cnt, cnt)
 
 print(max_cnt)
+
+#pypy3으로 제출해서 거의 1시간반을 해맴 python3으로 제출해야했음

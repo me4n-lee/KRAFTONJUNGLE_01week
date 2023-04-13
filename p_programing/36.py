@@ -33,6 +33,7 @@ for i in range(len(short_list)):
 
 short_list = [x for x in short_list if x != 0] #0이 아닌것들만 출력할수 있는 수식! 알아둬야함!
 
+
 for i in range(len(short_list)):
     print(short_list[i])
 # for i in range(len(short_list)):

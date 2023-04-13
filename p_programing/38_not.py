@@ -9,7 +9,8 @@ city_list = []
 for i in range(n):
     a = list(map(int,input().split()))
     city_list.append(a)
-result = 0
+road_sum = 0 #모든 거리의 합
+result = 0 #합중 최소를 저장하는곳
 
 print(city_list)
 print(city_list[1][0])
@@ -33,8 +34,10 @@ def dfs(start, now, cnt):
             for j in range(len(city_list[i])):
             # road_sum 에 길이 추가 city_list[i][j]
                 if road_sum
-                road_sum = road_sum +city_list
-                dfs(start, now, cnt+1)
+                    road_sum = road_sum +city_list
+                    dfs(start, now, cnt+1)
 
 for i in range(n):
-    dfs(i,i,0)
+    visited = [False]* n
+    visited[i] = True
+    dfs(i,i,)

@@ -1,5 +1,6 @@
 #https://www.acmicpc.net/problem/9498
 #시험 성적
+#9498
 
 import sys
 input = sys.stdin.readline

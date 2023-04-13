@@ -1,5 +1,6 @@
 #https://www.acmicpc.net/problem/2588
 #곱셈
+#2588
 
 import sys
 input = sys.stdin.readline
